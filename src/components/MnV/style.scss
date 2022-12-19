@@ -1,0 +1,20 @@
+@import '../../variables';
+
+.mnv {
+    background-color: #FEC84B;
+
+    .details {
+        .sec_heading {
+            margin-top: 0;
+        }
+    }
+    
+    .content {
+        .content_txt {
+            font-size: 20px;
+            font-family: $font-regular;
+            color: #000;
+            line-height: 30px;
+        }
+    }
+}

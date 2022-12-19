@@ -1,0 +1,46 @@
+@import '../../variables';
+
+.contactus {
+    background-color: #101828;
+
+    .contact_head_cnt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 96px;
+
+        .sec_head {
+            font-size: 48px;
+            font-family: $font-semi-bold;
+            color: #fff;
+            margin-bottom: 24px;
+        }
+
+        .caption {
+            color: #fff;
+            font-size: 20px;
+        }
+    }
+    
+    .contact_details {
+        .detail_item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            .title {
+                font-size: 20px;
+                font-family: $font-regular;
+                color: #fff;
+            }
+
+            .contact {
+                color: #FEC84B;
+                font-size: 16px;
+                font-family: $font-light;
+                text-align: center;
+            }
+        }
+    }
+}

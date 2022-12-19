@@ -1,0 +1,37 @@
+@import "../../variables";
+
+.landing_sec {
+    background-color: #101828;
+
+    .landing_container {
+        width: 100%;
+        display: flex;
+        min-height: 100vh;
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-end;
+        
+        .landing_image {
+            width: 80%;
+            justify-self: center;
+        }   
+    
+        .hero_line {
+            color: #fff;
+            font-size: 50px;
+            width: 70%;
+            text-align: center;
+            font-family: $font-bold;
+            margin-bottom: 24px;
+        }
+    
+        .caption {
+            color: white;
+            font-size: 14px;
+            width: 70%;
+            text-align: center;
+            font-family: $font-light;
+            margin-bottom: 20px;
+        }
+    }
+}

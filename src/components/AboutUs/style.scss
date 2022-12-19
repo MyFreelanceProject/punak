@@ -1,0 +1,41 @@
+@import '../../variables';
+
+.aboutus {
+    background-color: #FEC84B;
+
+    .sec_heading {
+        color: #000;
+    }
+
+    .content {
+        color: #000;
+        font-size: 20px;
+        line-height: 30px;
+        font-family: $font-regular;
+    }
+
+    .feature_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .feature_img {
+            width: 92px;
+            height: 92px;
+            border-radius: 100px;
+            background-color: #101828;
+            font-size: 32px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .feature_title {
+            color: #000;
+            margin-top: 16px;
+            font-size: 28px;
+            font-family: $font-semi-bold;
+        }
+    }
+}

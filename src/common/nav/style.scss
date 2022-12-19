@@ -1,0 +1,25 @@
+@import '../../variables';
+
+
+.nav_container {
+    background-color: #101828;
+    padding: 10px 0;
+
+    .navbar-brand {
+        margin-right: 100px;
+
+        
+        .punak_logo {
+            width: 120px;
+            height: auto;
+        }
+    }
+    .nav-item .nav-link {
+        color: #fff;
+        margin-right: 22px;
+        font-size: 16px;
+        font-family: $font-medium;
+    }
+}
+
+
