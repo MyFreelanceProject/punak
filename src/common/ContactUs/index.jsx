@@ -3,7 +3,6 @@ import "./style.scss";
 import { Col, Container, Row } from "reactstrap";
 import phone from "../../assets/icons/phone.png";
 import mail from "../../assets/icons/mail.png";
-import location from "../../assets/icons/map-pin.png";
 
 const ContactUs = () => {
   return (

@@ -23,6 +23,7 @@ function Navigation() {
         fixed="top"
         sticky="true"
         container={true}
+        dark
       >
         <NavbarBrand href="/">
           <img className="punak_logo" src={logo} alt="logo" />

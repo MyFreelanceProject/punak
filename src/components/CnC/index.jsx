@@ -2,15 +2,15 @@ import React from "react";
 import "./style.scss";
 import { Container, Row, Col } from "reactstrap";
 import { Carousel } from "react-responsive-carousel";
-import watch1 from "../../assets/images/watch1.png";
-import watch2 from "../../assets/images/watch2.png";
-import watch3 from "../../assets/images/watch3.png";
-import watch4 from "../../assets/images/watch4.png";
-import watch5 from "../../assets/images/watch5.png";
-
-const images = [watch1, watch2, watch3, watch4, watch5];
+import cnc1 from "../../assets/images/cnc1.jpg";
+import cnc2 from "../../assets/images/cnc2.jpg";
+import cnc3 from "../../assets/images/cnc3.jpg";
+import cnc4 from "../../assets/images/cnc4.jpg";
+import useWindowDimensions from "../../hook/useGetWindowDimension";
+const images = [cnc1, cnc2, cnc3, cnc4];
 
 const Cnc = () => {
+  const { width } = useWindowDimensions();
   return (
     <div className="products_sec section">
       <Container>
@@ -25,14 +25,15 @@ const Cnc = () => {
               showThumbs={false}
               showStatus={false}
               centerMode={true}
-              centerSlidePercentage={25}
+              centerSlidePercentage={width < 700 ? 100 : 25}
               emulateTouch={true}
               swipeable={true}
               infiniteLoop={true}
               autoPlay={true}
+              showIndicators={false}
             >
               {images.map((img, i) => (
-                <img height={"100%"} src={img} alt={`watch${i}`} />
+                <img key={i} height={"100%"} src={img} alt={`watch${i}`} />
               ))}
             </Carousel>
           </div>

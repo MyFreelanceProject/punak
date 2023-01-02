@@ -17,3 +17,12 @@
         transform: scale(1);
     }
 }
+
+@media screen and (max-width: 700px) {
+    .scroll_to_top {
+        bottom: 35px;
+        right: 35px;
+        height: 35px;
+        width: 35px;
+    }   
+}

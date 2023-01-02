@@ -29,8 +29,8 @@ const Aboutus = () => {
           </Col>
         </Row>
         <Row style={{ padding: "100px 0 0 0"}}>
-          {features.map((feature) => (
-            <Col xs={12} lg={4}>
+          {features.map((feature, i) => (
+            <Col key={i} xs={12} lg={4}>
               <div className="feature_container">
                 <div className="feature_img">
                   <img src={feature.img} alt={feature.title} />
