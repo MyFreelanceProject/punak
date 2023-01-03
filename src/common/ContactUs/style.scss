@@ -35,11 +35,22 @@
                 color: #fff;
             }
 
-            .contact {
-                color: #FEC84B;
-                font-size: 16px;
-                font-family: $font-light;
-                text-align: center;
+            a {
+                text-decoration: none;
+                margin-bottom: 6px;
+
+                &:hover {
+                    border-bottom: 1px solid white;
+                }
+
+                .contact {
+                    margin-bottom: 1px;
+                    color: #FEC84B;
+                    font-size: 16px;
+                    font-family: $font-light;
+                    text-align: center;
+                    
+                }
             }
         }
     }

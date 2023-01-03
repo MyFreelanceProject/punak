@@ -1,15 +1,31 @@
 @import "../../variables";
 
 .landing_sec {
+    z-index: 0;
+    position: relative;
+    background-size: cover;
     background-color: #101828;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../../assets/images/landing.png");
+
+    &::before {
+        z-index: 1;
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
 
     .landing_container {
+        z-index: 10;
         width: 100%;
         display: flex;
         min-height: 100vh;
         align-items: center;
         flex-direction: column;
-        justify-content: flex-end;
+        justify-content: center;
         
         .landing_image {
             width: 80%;

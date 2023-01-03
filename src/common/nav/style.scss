@@ -19,6 +19,10 @@
         margin-right: 22px;
         font-size: 16px;
         font-family: $font-medium;
+
+        &:hover {
+            color: rgb(255, 245, 53);
+        }
     }
 }
 

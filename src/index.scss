@@ -76,6 +76,10 @@ html {
 	color: black;
 	font-size: 16px;
 	font-family: $font-medium;
+
+	&:hover {
+		background-color: #ffba1a;
+	}
 }
 
 .section {

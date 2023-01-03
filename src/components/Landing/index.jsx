@@ -9,14 +9,12 @@ const Landing = () => {
         <Row>
           <Col xs={12} className="landing_container">
             <h1 className="hero_line">
-              The ultimate destination for watch enthusiasts
+              The Ultimate Destination for Smart Gadgets and Accessories
             </h1>
             <h6 className="caption">
-              Welcome to our website, where we offer a curated selection of the
-              finest watches and watch straps. Explore our collection and
-              discover the perfect timepiece for you.
+            Welcome to our website, where we offer a curated selection of the watch straps, cases & covers, and smart gadgets. Explore our collection and discover the perfect timepiece for you.
             </h6>
-            <img className="landing_image" src={landing} alt="landing" />
+            {/* <img className="landing_image" src={landing} alt="landing" /> */}
           </Col>
         </Row>
       </Container>
